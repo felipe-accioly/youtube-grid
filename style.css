@@ -1,0 +1,194 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: #f7f7f7;
+    max-width: 900px;
+    display: grid;
+    grid: 
+    "video-destaque propaganda" 56px
+    "video-destaque videos-recomendados" 1fr
+    / 1fr 270px;
+    padding: 30px;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.video-destaque{
+    grid-area: video-destaque;
+}
+
+.video-destaque .video-aberto{
+    width: 543px;
+    height: 217px;
+    background-color: #c4c4c4;
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+.video-destaque .titulo{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.video-destaque .visualizacoes{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.video-destaque .descricao{
+    font-size: 16px;
+}
+
+.propaganda{
+    grid-area: propaganda;
+    width: 270px;
+    height: 56px;
+    background-color: #c4c4c4;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videos-recomendados{
+    grid-area: videos-recomendados;
+}
+
+.videos-recomendados .info-video-recomendado{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.videos-recomendados .info-video-recomendado .titulo-video-recomendado{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.videos-recomendados .info-video-recomendado p{
+    font-size: 11px;
+    margin-bottom: 4px;
+}
+
+.videos-recomendados .info-video-recomendado .video{
+    background-color: #c4c4c4;
+    width: 101px;
+    height: 71px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+}
+
+
+.youtube{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: repeat(5, auto);
+    width: 900px;
+    height: 415px;
+    position: relative;
+    background-color: #F7F7F7;
+    padding: 30px;
+}
+
+.container .video{
+    height: 217px;
+    width: 543px;
+    background-color: #C4C4C4;
+    grid-area: 1 / 1 / 4 / 5; 
+}
+
+.container .youtube .informacoes{
+    display: flex;
+    flex-direction: column;
+    grid-area: 4 / 1 / 6 / 5;
+    width: 543px;
+    height: 150px;
+    position: absolute;
+    align-content: space-around;
+    margin-bottom: px;
+}
+
+.container .youtube .informacoes p{
+    font-size: 16px;
+}
+
+.container .youtube .informacoes span{
+    font-size: 14px;
+}
+
+.container .youtube .informacoes titulo{
+    font-size: 18px;}
+    
+.propaganda{
+    grid-area: 1 / 5 / 2 / 7;
+    width: 270px;
+    height: 56px;
+    background-color: #C4C4C4;
+    position: absolute;
+}
+
+.container .youtube .video-recomendado{
+    display: flex;
+    flex-direction: column;
+    grid-area: 2 / 5 / 6 / 7;
+    width: 270px;
+    height: 100%;
+}
+
+.container .video-recomendado .info-video-recomendado{
+    display: flex;
+}
+.container .video-recomendado .info-video-recomendado .card{
+    width: 101px;
+    height: 71px;
+    background-color: #c4c4c4;
+}
+
+
+.container .video-recomendado .info-video-recomendado .text-video-recomendado{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .video-recomendado .info-video-recomendado .text-video-recomendado .titulo-video-recomendado{
+    font-size: 14px;
+    font-weight: 700;
+} */
